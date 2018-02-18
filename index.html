@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CPU Specifications Visualization</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.4/d3-legend.min.js"></script>
+  <script src="d3-tip.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>CPU Specifications Visualization</h1>
+    <h2 class="author-name">Cen Wang</h2>
+    <div>
+      <div>
+        Select X variable:
+        <select class="select-variable" id="select-x"></select>
+      </div>
+      <div>
+        Select Y variable:
+        <select class="select-variable" id="select-y"></select>
+      </div>
+      <div>
+        Select size:
+        <select class="select-variable" id="select-size"></select>
+      </div>
+      <div>
+        Select opacity:
+        <select class="select-variable" id="select-opacity"></select>
+      </div>
+      <div>
+        <button id="reset-platform">Reset Platform</button>
+      </div>
+    </div>
+    <svg></svg>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
