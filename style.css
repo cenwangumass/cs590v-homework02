@@ -73,6 +73,10 @@ h1 {
   text-align: center;
 }
 
+.author-name {
+  text-align: center;
+}
+
 .axis {
   font-size: 16px;
 }
